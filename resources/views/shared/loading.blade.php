@@ -1,0 +1,3 @@
+<div wire:loading>
+    Saving...
+</div>

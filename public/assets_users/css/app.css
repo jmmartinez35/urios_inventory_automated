@@ -1,0 +1,124 @@
+:root {
+    --primary: #120d4f;
+    --secondary: #f7f7e3;
+    --white: #fcfcfc;
+    --prop1: #ffc414;
+    --prop2: #182e5a;
+    --prop3: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo-containter {
+    width: auto;
+}
+.logo-img {
+    width: 60px;
+}
+.navbar {
+    background: var(--primary);
+    border-bottom: 5px solid var(--prop1) !important;
+}
+.navbar,
+.navbar-brand {
+    color: var(--secondary) !important;
+}
+.navbar,
+.navbar-toggler {
+    color: var(--secondary) !important;
+}
+.navbar,
+.navbar-nav,
+.nav-link {
+    color: var(--secondary) !important;
+}
+
+.login-logo-avatar,
+.register-logo-avatar {
+    width: 100px;
+}
+
+.login-wrapper {
+    width: 400px;
+}
+
+.register-wrapper {
+    padding: 0px !important;
+    margin-bottom: 100px;
+}
+
+
+.login-wrapper {
+    padding: 0px !important;
+
+    margin-bottom: 100px;
+}
+
+
+.login-wrapper,
+.login-title {
+    background: var(--primary);
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px;
+}
+
+.login-wrapper,
+.login-title h5 {
+    margin-top: 5px;
+    color: var(--secondary) !important;
+}
+
+.login-wrapper,
+.login-container {
+    margin-top: 5px;
+    background: var(--white) !important;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.login-wrapper,
+.login-container label {
+    color: var(--prop3);
+}
+
+.register-wrapper {
+    width: 400px;
+}
+
+.register-wrapper,
+.register-container {
+    margin-top: 5px;
+    background: var(--white) !important;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.register-wrapper,
+.register-title {
+    background: var(--primary);
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px;
+}
+
+.btn-login-c {
+    color: var(--white);
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: var(--primary);
+}
+
+.btn-login-c:hover {
+    color: var(--white);
+}
+.rmb label,
+a {
+    font-size: 15px;
+}
+
+.rmb a {
+    text-decoration: none;
+}
