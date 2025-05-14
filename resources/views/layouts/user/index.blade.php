@@ -88,7 +88,7 @@
     <!-- Place this in the <head> or just before closing </body> tag -->
 
     <!-- Scripts -->
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    @vite(['resources/css/app.css', 'resources/sass/app.scss', 'resources/js/app.js'])
     <style>
         .poster-section {
             height: 600px;
