@@ -11,7 +11,7 @@
         "haruncpi/laravel-id-generator": "^1.1",
         "intervention/image-laravel": "^1.2",
         "laravel/framework": "^10.10",
-        "laravel/sanctum": "^3.3",
+        "laravel/sanctum": "3.3.3",
         "laravel/tinker": "^2.8",
         "laravel/ui": "^4.4",
         "livewire/livewire": "^3.4",
